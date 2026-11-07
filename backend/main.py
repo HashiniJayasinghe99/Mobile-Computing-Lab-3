@@ -231,3 +231,8 @@ async def job_summary():
 async def clear_job_log():
     job_log.clear()
     return {"status": "cleared"}
+
+
+# Week 6
+from week6 import router as week6_router  # noqa: E402
+app.include_router(week6_router)
