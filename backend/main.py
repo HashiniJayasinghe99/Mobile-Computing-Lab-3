@@ -236,3 +236,8 @@ async def clear_job_log():
 # Week 6
 from week6 import router as week6_router  # noqa: E402
 app.include_router(week6_router)
+
+
+# Week 7
+from week7 import router as week7_router  # noqa: E402
+app.include_router(week7_router)
